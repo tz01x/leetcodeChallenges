@@ -32,7 +32,7 @@ public class Program
 				 foreach(int item in bucketSortArray[i]){
 					 
 					 
-					 if(counter < k){
+					if(counter < k){
 						topKItems[counter] = item;
 					 counter+=1;
 					 }

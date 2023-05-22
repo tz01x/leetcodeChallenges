@@ -7,7 +7,7 @@ public class Program
 	 
        
 	 static int LongestConsecutive(int[] nums) {
-		 int res=1;
+		 int res=0;
 		 var itemSet = new Dictionary<int,int>();
 		 
 		 foreach(int num in nums)
